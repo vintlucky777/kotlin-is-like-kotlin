@@ -84,7 +84,7 @@ const emptyDictionary: {[key: string]: number};
 }
 greet("Bob", "Tuesday")
 </code></pre></div><div class="card"><div class="lang">TypeScript</div><pre class="code"><code>function greet(name: string, day: string): string {
-    return `Hello \${name}, today is \${day}.`
+    return `Hello ${name}, today is ${day}.`
 }
 greet("Bob", "Tuesday");
 
@@ -158,7 +158,7 @@ area({width: 2, height: 3});
 </code></pre></div><div class="card"><div class="lang">TypeScript</div><pre class="code"><code>class Shape {
     numberOfSides = 0;
     simpleDescription(){
-        return "A shape with $numberOfSides sides.";
+        return `A shape with ${this.numberOfSides} sides.`;
     }
 }
 </code></pre></div></div></div><div class="case"><div class="name">Usage</div><div class="pair"><div class="card"><div class="lang">Kotlin</div><pre class="code"><code>var shape = Shape()
