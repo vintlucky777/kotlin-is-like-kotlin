@@ -11,7 +11,7 @@ html
 
   body
     a (:target _blank)
-      :href https://github.com/Nilhcem/swift-is-like-kotlin
+      :href https://gi-no.github.io/kotlin-is-like-typescript/
       img#fork-me (:src http://nilhcem.github.io/swift-is-like-kotlin/fork-me.png)
     #note
       = "Kotlin is like TypeScript"

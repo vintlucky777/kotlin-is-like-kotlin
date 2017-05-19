@@ -1,7 +1,7 @@
 
 # Kotlin is like Swift
 
-Page: http://nilhcem.github.io/swift-is-like-kotlin/
+Page: https://gi-no.github.io/kotlin-is-like-typescript/
 
 Programmatically inspired from [swift-is-like-kotlin](https://github.com/Nilhcem/swift-is-like-kotlin), [swift-is-like-go](https://github.com/jiyinyiyong/swift-is-like-go) and visually inspired from [swiftislikescala](https://github.com/leverich/swiftislikescala)
 
