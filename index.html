@@ -7,20 +7,20 @@ val myConstant = 42
 myVariable = 50;
 const myConstant = 42;
 </code></pre></div></div></div><div class="case"><div class="name">Explicit Types</div><div class="pair"><div class="card"><div class="lang">Kotlin</div><pre class="code"><code>val explicitDouble: Double = 70.0
-</code></pre></div><div class="card"><div class="lang">TypeScript</div><pre class="code"><code>let explicitDouble: number = 70;
+</code></pre></div><div class="card"><div class="lang">TypeScript</div><pre class="code"><code>const explicitDouble: number = 70;
 </code></pre></div></div></div><div class="case"><div class="name">Type Coercion</div><div class="pair"><div class="card"><div class="lang">Kotlin</div><pre class="code"><code>val label = "The width is "
 val width = 94
 val widthLabel = label + width
-</code></pre></div><div class="card"><div class="lang">TypeScript</div><pre class="code"><code>let label = "The width is ";
-let width = 94;
-let widthLabel = label + width;
+</code></pre></div><div class="card"><div class="lang">TypeScript</div><pre class="code"><code>const label = "The width is ";
+const width = 94;
+const widthLabel = label + width;
 </code></pre></div></div></div><div class="case"><div class="name">String Interpolation</div><div class="pair"><div class="card"><div class="lang">Kotlin</div><pre class="code"><code>val apples = 3
 val oranges = 5
 val fruitSummary = "I have ${apples + oranges} " +
                    "pieces of fruit."
-</code></pre></div><div class="card"><div class="lang">TypeScript</div><pre class="code"><code>let apples = 3;
-let oranges = 5;
-let fruitSummary = `I have ${apples + oranges} ` +
+</code></pre></div><div class="card"><div class="lang">TypeScript</div><pre class="code"><code>const apples = 3;
+const oranges = 5;
+const fruitSummary = `I have ${apples + oranges} ` +
                    "pieces of fruit.";
 </code></pre></div></div></div><div class="case"><div class="name">Range Operator</div><div class="pair"><div class="card"><div class="lang">Kotlin</div><pre class="code"><code>val names = arrayOf("Anna", "Alex", "Brian", "Jack")
 val count = names.count()
@@ -32,8 +32,8 @@ for (i in 0..count - 1) {
 // Person 3 is called Brian
 // Person 4 is called Jack
 </code></pre></div><div class="card"><div class="lang">TypeScript</div><pre class="code"><code>import * as _ from 'lodash';
-let names = ["Anna", "Alex", "Brian", "Jack"];
-let count = names.length;
+const names = ["Anna", "Alex", "Brian", "Jack"];
+const count = names.length;
 for (let i of _.range(0, count)) {
     console.log(`Person ${i + 1} is called ${names[i]}`)
 }
@@ -77,8 +77,8 @@ occupations["Jayne"] = "Public Relations"
 occupations["Jayne"] = "Public Relations";
 </code></pre></div></div></div><div class="case"><div class="name">Empty Collections</div><div class="pair"><div class="card"><div class="lang">Kotlin</div><pre class="code"><code>val emptyArray = arrayOf&lt;String>()
 val emptyMap = mapOf&lt;String, Float>()
-</code></pre></div><div class="card"><div class="lang">TypeScript</div><pre class="code"><code>let emptyArray: string[];
-let emptyDictionary: {[key: string]: number};
+</code></pre></div><div class="card"><div class="lang">TypeScript</div><pre class="code"><code>const emptyArray: string[];
+const emptyDictionary: {[key: string]: number};
 </code></pre></div></div></div></div><div class="section"><div class="title">FUNCTIONS</div><div class="case"><div class="name">Functions</div><div class="pair"><div class="card"><div class="lang">Kotlin</div><pre class="code"><code>fun greet(name: String, day: String): String {
     return "Hello $name, today is $day."
 }

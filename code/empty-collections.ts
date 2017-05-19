@@ -1,2 +1,2 @@
-let emptyArray: string[];
-let emptyDictionary: {[key: string]: number};
+const emptyArray: string[];
+const emptyDictionary: {[key: string]: number};

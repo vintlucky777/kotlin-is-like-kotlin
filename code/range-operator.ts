@@ -1,6 +1,6 @@
 import * as _ from 'lodash';
-let names = ["Anna", "Alex", "Brian", "Jack"];
-let count = names.length;
+const names = ["Anna", "Alex", "Brian", "Jack"];
+const count = names.length;
 for (let i of _.range(0, count)) {
     console.log(`Person ${i + 1} is called ${names[i]}`)
 }

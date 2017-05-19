@@ -1,1 +1,1 @@
-let explicitDouble: number = 70;
+const explicitDouble: number = 70;

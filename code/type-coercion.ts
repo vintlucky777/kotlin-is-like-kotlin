@@ -1,3 +1,3 @@
-let label = "The width is ";
-let width = 94;
-let widthLabel = label + width;
+const label = "The width is ";
+const width = 94;
+const widthLabel = label + width;
