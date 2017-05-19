@@ -90,15 +90,9 @@ html
       .case (.name "Checking Type") $ .pair
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/checking-type.kt)
         .card (.lang TypeScript) $ pre.code $ code (@insert ../code/checking-type.ts)
-      .case (.name "Pattern Matching") $ .pair
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/pattern-matching.kt)
-        .card (.lang TypeScript) $ pre.code $ code (@insert ../code/pattern-matching.ts)
       .case (.name "Downcasting") $ .pair
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/downcasting.kt)
         .card (.lang TypeScript) $ pre.code $ code (@insert ../code/downcasting.ts)
       .case (.name "Protocol") $ .pair
         .card (.lang Kotlin) $ pre.code $ code (@insert ../code/protocol.kt)
         .card (.lang TypeScript) $ pre.code $ code (@insert ../code/protocol.ts)
-      .case (.name "Extensions") $ .pair
-        .card (.lang Kotlin) $ pre.code $ code (@insert ../code/extensions.kt)
-        .card (.lang TypeScript) $ pre.code $ code (@insert ../code/extensions.ts)

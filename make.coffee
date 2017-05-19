@@ -11,7 +11,7 @@ cirru = (data) ->
   mission.cirruHtml
     file: 'index.cirru'
     from: 'cirru/'
-    to: './'
+    to: './docs/'
     extname: '.html'
     data: data
 
