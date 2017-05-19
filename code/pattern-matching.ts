@@ -1,4 +1,4 @@
-let nb = 42
+let nb = 42;
 switch nb {
     case 0...7, 8, 9: print("single digit")
     case 10: print("double digits")

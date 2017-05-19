@@ -3,7 +3,7 @@
 
 Page: http://nilhcem.github.io/swift-is-like-kotlin/
 
-Programmatically inspired from [swift-is-like-go](https://github.com/jiyinyiyong/swift-is-like-go) and visually inspired from [swiftislikescala](https://github.com/leverich/swiftislikescala)
+Programmatically inspired from [swift-is-like-kotlin](https://github.com/Nilhcem/swift-is-like-kotlin), [swift-is-like-go](https://github.com/jiyinyiyong/swift-is-like-go) and visually inspired from [swiftislikescala](https://github.com/leverich/swiftislikescala)
 
 ### License
 
