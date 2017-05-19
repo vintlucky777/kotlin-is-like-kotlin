@@ -1,5 +1,5 @@
 
-# Swift is like Kotlin
+# Kotlin is like Swift
 
 Page: http://nilhcem.github.io/swift-is-like-kotlin/
 
