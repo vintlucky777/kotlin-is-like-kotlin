@@ -2,7 +2,7 @@ doctype
 
 html
   head
-    title "Kotlin is like TypeScript"
+    title "Kotlin is like Kotlin"
     meta (:charset utf-8)
     link (:rel stylesheet) (:href css/style.css)
     link (:rel stylesheet) (:href css/highlightjs-github.css)
