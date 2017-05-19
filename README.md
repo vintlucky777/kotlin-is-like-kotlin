@@ -18,3 +18,5 @@ npm i # install dependencies to build tools
 
 HTML is generated from `cirru/index.cirru`.
 Read that file and you would know what's happening.
+
+### This is a joke repository, lol!
